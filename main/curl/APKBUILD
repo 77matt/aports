@@ -106,7 +106,7 @@ build() {
 		--with-nghttp2 \
 		--disable-ldap \
 		--with-pic \
-		--without-libssh2 # https://bugs.alpinelinux.org/issues/10222
+		--with-libssh2 # https://bugs.alpinelinux.org/issues/10222
 	make
 }
 
